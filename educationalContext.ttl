@@ -5,7 +5,6 @@
 
 <> a skos:ConceptScheme;
     dct:title "Bildungsstufe"@de;
-    dct:title "Educational Context"@en;
     dct:description "Eine Wertelliste für die Bildungsstufe, in der das Lernobjekt genutzt werden kann. Genutzt im ReLUG-Projekt"@de;
     dct:creator "Steffen Rörtgen" ;
     dct:created "2021-09-01"^^xsd:date;

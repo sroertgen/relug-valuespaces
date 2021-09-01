@@ -1,0 +1,34 @@
+@base <http://w3id.org/relug/vocabs/interactionSetting/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Interaktionssetting"@de;
+    dct:description "Eine Wertelliste von Interaktionssettings. Genutzt im ReLUG-Projekt"@de;
+    dct:creator "Steffen Rörtgen" ;
+    dct:created "2021-09-01"^^xsd:date;
+    dct:modified "2021-09-01"^^xsd:date;
+    dct:issued "2021-09-01"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <01>, <02>, <03>, <04>, <05> .
+
+<01> a skos:Concept ;
+    skos:prefLabel "Dialog/Zwiegespräch"@de ;
+    skos:topConceptOf <> .
+
+<02> a skos:Concept ;
+    skos:prefLabel "Gruppengespräch/Präsentation"@de ;
+    skos:topConceptOf <> .
+
+<03> a skos:Concept ;
+    skos:prefLabel "Klassengespräch"@de ;
+    skos:topConceptOf <> .
+
+<04> a skos:Concept ;
+    skos:prefLabel "Monolog/Vortrag"@de ;
+    skos:topConceptOf <> .
+
+<05> a skos:Concept ;
+    skos:prefLabel "Peergruppeninteraktion"@de ;
+    skos:topConceptOf <> .

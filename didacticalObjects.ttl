@@ -1,0 +1,84 @@
+@base <http://w3id.org/relug/vocabs/didacticalObjects/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Didaktische Objekte"@de;
+    dct:description "Eine Wertelliste von didaktischen Objekten. Genutzt im ReLUG-Projekt"@de;
+    dct:creator "Steffen Rörtgen" ;
+    dct:created "2021-09-01"^^xsd:date;
+    dct:modified "2021-09-01"^^xsd:date;
+    dct:issued "2021-09-01"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <01>, <02>, <03>, <04>, <05>, <06>, <07>, <08>,
+      <09>, <10>, <11>, <12>, <13>, <14>, <15>, <16>, <17>
+      .
+
+<01> a skos:Concept ;
+    skos:prefLabel "Arbeitsbuch"@de ;
+    skos:topConceptOf <> .
+
+<02> a skos:Concept ;
+    skos:prefLabel "Experiment"@de ;
+    skos:topConceptOf <> .
+
+<03> a skos:Concept ;
+    skos:prefLabel "Lehrwerk"@de ;
+    skos:topConceptOf <> .
+
+<04> a skos:Concept ;
+    skos:prefLabel "Leinwand"@de ;
+    skos:topConceptOf <> .
+
+<05> a skos:Concept ;
+    skos:prefLabel "mitgebrachte Objekte der SuS/LK"@de ;
+    skos:topConceptOf <> .
+
+<06> a skos:Concept ;
+    skos:prefLabel "PC"@de ;
+    skos:topConceptOf <> .
+
+<07> a skos:Concept ;
+    skos:prefLabel "Präsentationsflächen"@de ;
+    skos:topConceptOf <> .
+
+<08> a skos:Concept ;
+    skos:prefLabel "Schreibheft"@de ;
+    skos:topConceptOf <> .
+
+<09> a skos:Concept ;
+    skos:prefLabel "Smartphone"@de ;
+    skos:topConceptOf <> .
+
+<10> a skos:Concept ;
+    skos:prefLabel "Sportgerät"@de ;
+    skos:topConceptOf <> .
+
+<11> a skos:Concept ;
+    skos:prefLabel "Tablet"@de ;
+    skos:topConceptOf <> .
+
+<12> a skos:Concept ;
+    skos:prefLabel "Tafel"@de ;
+    skos:topConceptOf <> .
+
+<13> a skos:Concept ;
+    skos:prefLabel "Textbuch/Ganzschrift"@de ;
+    skos:topConceptOf <> .
+
+<14> a skos:Concept ;
+    skos:prefLabel "Unterrichtshilfe"@de ;
+    skos:topConceptOf <> .
+
+<15> a skos:Concept ;
+    skos:prefLabel "Whiteboard"@de ;
+    skos:topConceptOf <> .
+
+<16> a skos:Concept ;
+    skos:prefLabel "Zeigeobjekt/didaktische Sammlungen"@de ;
+    skos:topConceptOf <> .
+
+<17> a skos:Concept ;
+    skos:prefLabel "andere"@de ;
+    skos:topConceptOf <> .

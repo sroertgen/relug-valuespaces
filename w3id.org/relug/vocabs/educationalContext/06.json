@@ -9,8 +9,7 @@
   "inScheme": {
     "id": "http://w3id.org/relug/vocabs/educationalContext/",
     "title": {
-      "de": "Bildungsstufe",
-      "en": "Educational Context"
+      "de": "Bildungsstufe"
     }
   },
   "topConceptOf": {

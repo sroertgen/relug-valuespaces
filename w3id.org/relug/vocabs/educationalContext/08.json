@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FeducationalContext%2F08",
   "inbox": "https://test.skohub.io/inbox?target=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FeducationalContext%2F08",
   "prefLabel": {
-    "de": "andere Schulform"
+    "de": "andere Bildungsinstitution"
   },
   "inScheme": {
     "id": "http://w3id.org/relug/vocabs/educationalContext/",

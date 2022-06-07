@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FdidacticalObjects%2F05",
   "inbox": "https://test.skohub.io/inbox?target=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FdidacticalObjects%2F05",
   "prefLabel": {
-    "de": "mitgebrachte Objekte der SuS/LK"
+    "de": "Zeige-/Anschauungsobjekt der SuS/LK"
   },
   "inScheme": {
     "id": "http://w3id.org/relug/vocabs/didacticalObjects/",

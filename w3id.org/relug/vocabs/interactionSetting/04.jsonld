@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FinteractionSetting%2F04",
   "inbox": "https://test.skohub.io/inbox?target=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FinteractionSetting%2F04",
   "prefLabel": {
-    "de": "Monolog/Vortrag"
+    "de": "Monolog/lautes Denken"
   },
   "inScheme": {
     "id": "http://w3id.org/relug/vocabs/interactionSetting/",

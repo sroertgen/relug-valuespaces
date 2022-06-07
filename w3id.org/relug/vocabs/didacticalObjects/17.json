@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FdidacticalObjects%2F17",
   "inbox": "https://test.skohub.io/inbox?target=relug-valuespaces%2Fw3id.org%2Frelug%2Fvocabs%2FdidacticalObjects%2F17",
   "prefLabel": {
-    "de": "andere"
+    "de": "andere Objekte"
   },
   "inScheme": {
     "id": "http://w3id.org/relug/vocabs/didacticalObjects/",

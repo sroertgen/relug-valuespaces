@@ -11,7 +11,7 @@
     dct:modified "2021-09-01"^^xsd:date;
     dct:issued "2021-09-01"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <01>, <02>, <03>, <04>, <05> .
+    skos:hasTopConcept <01>, <02>, <03>, <04>, <06>, <07>, <08>, <09>, <10> .
 
 <01> a skos:Concept ;
     skos:prefLabel "Dialog/Zwiegespräch"@de ;
@@ -26,9 +26,30 @@
     skos:topConceptOf <> .
 
 <04> a skos:Concept ;
-    skos:prefLabel "Monolog/Vortrag"@de ;
+    skos:prefLabel "Monolog/lautes Denken"@de ;
     skos:topConceptOf <> .
 
-<05> a skos:Concept ;
-    skos:prefLabel "Peergruppeninteraktion"@de ;
+# <05> a skos:Concept ;
+#     skos:prefLabel "Peergruppeninteraktion"@de ;
+#     skos:topConceptOf <> .
+
+
+<06> a skos:Concept ;
+    skos:prefLabel "Plenumsgespräch"@de ;
+    skos:topConceptOf <> .
+
+<07> a skos:Concept ;
+    skos:prefLabel "Interview"@de ;
+    skos:topConceptOf <> .
+
+<08> a skos:Concept ;
+    skos:prefLabel "Teamgespräch"@de ;
+    skos:topConceptOf <> .
+
+<09> a skos:Concept ;
+    skos:prefLabel "Konferenz"@de ;
+    skos:topConceptOf <> .
+
+<10> a skos:Concept ;
+    skos:prefLabel "anderes Setting"@de ;
     skos:topConceptOf <> .

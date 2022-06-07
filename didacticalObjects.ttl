@@ -12,7 +12,7 @@
     dct:issued "2021-09-01"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <01>, <02>, <03>, <04>, <05>, <06>, <07>, <08>,
-      <09>, <10>, <11>, <12>, <13>, <14>, <15>, <16>, <17>
+      <09>, <10>, <11>, <12>, <13>, <14>, <15>, <16>, <17>, <18>, <19>
       .
 
 <01> a skos:Concept ;
@@ -32,7 +32,7 @@
     skos:topConceptOf <> .
 
 <05> a skos:Concept ;
-    skos:prefLabel "mitgebrachte Objekte der SuS/LK"@de ;
+    skos:prefLabel "Zeige-/Anschauungsobjekt der SuS/LK"@de ;
     skos:topConceptOf <> .
 
 <06> a skos:Concept ;
@@ -80,5 +80,13 @@
     skos:topConceptOf <> .
 
 <17> a skos:Concept ;
-    skos:prefLabel "andere"@de ;
+    skos:prefLabel "andere Objekte"@de ;
+    skos:topConceptOf <> .
+
+<18> a skos:Concept ;
+    skos:prefLabel "Text"@de ;
+    skos:topConceptOf <> .
+
+<19> a skos:Concept ;
+    skos:prefLabel "Arbeitsblatt"@de ;
     skos:topConceptOf <> .
